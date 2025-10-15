@@ -9,7 +9,7 @@
         var p2 = cp[1].mul(2 * t * (1 - t));
         var p3 = cp[2].mul(t * t); 
         return p1.add(p2).add(p3);
-    }  
+    } 
 
     function inheart(x, y, r) {
         
@@ -169,7 +169,7 @@
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
             ctx.fillText("Click Me:) ", 30, -5);
-            ctx.fillText("Birthday Queen !", 28, 10);
+            ctx.fillText("Queen of my heart !", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -531,3 +531,4 @@
     window.Tree = Tree;
 
 })(window);
+
