@@ -168,8 +168,8 @@
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
             ctx.font = "12px,Verdana"; // 字号肿么没有用? (ˉ(∞)ˉ)
-            ctx.fillText("Click Me:) ", 30, -5);
-            ctx.fillText("Queen of my heart !", 28, 10);
+            ctx.fillText("Click here:) ", 30, -5);
+            ctx.fillText("My dear Vaisha !", 28, 10);
             ctx.restore();
         },
         clear: function() {
@@ -531,4 +531,5 @@
     window.Tree = Tree;
 
 })(window);
+
 
